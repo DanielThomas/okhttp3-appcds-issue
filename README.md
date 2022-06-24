@@ -5,7 +5,7 @@ To reproduce, install the distribution:
 cd build/install/okhttp3-appcds-issue/bin
 ```
 
-Generate archive, Ctrl-C once the application has started:
+Generate archive:
 ```
 JAVA_HOME=<path-to-jdk-17.0.3> JAVA_OPTS=-XX:ArchiveClassesAtExit=okhttp3-appcds-issue.jsa ./okhttp3-appcds-issue
 ```
